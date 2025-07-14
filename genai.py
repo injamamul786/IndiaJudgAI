@@ -8,7 +8,7 @@ import time
 import json
 import re
 
-API = "AIzaSyBuSuvbNLjFZO43NH3jneBlNPr4pCg6GOE"
+API = YOUR-GOOGLE-GEMINI-API-KEY
 # 1. Configure Gemini API
 genai.configure(api_key=API)
 model = genai.GenerativeModel("gemini-1.5-flash")
